@@ -1,8 +1,11 @@
+import { useState } from "react";
 
 function App() {
+  const [count, setCount] = useState(0);
+
   return (
   <>
-    <h1>Contador: 0</h1>
+      <h1>Contador: {count}</h1>
       
     <button>+</button>
   </>
