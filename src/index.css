@@ -11,3 +11,12 @@ button {
   border-radius: 5px;
   background-color: green;
 }
+
+button.minus {
+  background-color: red;
+}
+
+button.plus {
+  margin-right: 2;
+  background-color: green;
+}
