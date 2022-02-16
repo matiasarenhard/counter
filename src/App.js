@@ -1,7 +1,11 @@
 
 function App() {
   return (
-    <div>oi</div>
+  <>
+    <h1>Contador: 0</h1>
+      
+    <button>+</button>
+  </>
   );
 }
 
